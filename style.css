@@ -90,6 +90,27 @@
 		.c {width: 60%; background-color: #303036}
 		.py {width: 60%; background-color: #808080;}
 
+		.table {
+			margin-top: 15px;
+			border-collapse: collapse;
+			width: 100%
+		}
+
+		.table tr {
+			background-color: black;
+			text-align: center;
+		}
+
+		.table td {
+			padding: 10px 12px;
+			color: black;
+			background-color: grey;
+		}
+
+		a:link {color: white; text-decoration: none;}
+		a:visited {color: grey; text-decoration: none;}
+		a:hover {color: cyan; text-decoration: none;}
+		a:active {color: white; text-decoration: none;}
 
 		@media screen and (max-width: 700px) {
 			.row, .navbar {
